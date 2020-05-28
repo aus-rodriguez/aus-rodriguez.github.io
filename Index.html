@@ -5,134 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Justin Rodriguez</title>
-    <link rel="stylesheet" href="project_styles_2.css">
+    <link rel="stylesheet" href="stylesheet.css">
     <link rel="icon" href="favicon.png">
 </head>
 <html>
 
 <body>
-
-
-    <div class="container" onclick="myFunction(this)">
-        <div class="hamburger_menu">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>
-        <div class="single_column pop_menu">
+    <div class="two_column_grid" id="home_menu">
+        <div class="two_col_left_col">
             <div class="contact_menu">
-                <li><a href="index.html" class="link">Home</a></li>
+                <li><a class="title">Justin<br>Rodriguez</a></li>
+                <li><a href="#about_p" class="link">About</a></li>
                 <li><a href="portfolio.html" class="link">Experience</a></li>
                 <li><a href="JustinRodriguezResume.pdf" target="_blank" class="link">Resume</a></li>
                 <li><a href="https://github.com/justrodr" target="_blank" class="link">Github</a></li>
                 <li><a href="https://www.linkedin.com/in/justin-rodr/" target="_blank" class="link">LinkedIn</a></li>
-                <li><a href="https://www.youtube.com/channel/UCtybUM7yJS8pQ94kVcHxs2A?view_as=subscriber"
-                        target="_blank" class="link">Youtube</a></li>
+                <li><a href="https://www.youtube.com/channel/UCtybUM7yJS8pQ94kVcHxs2A?view_as=subscriber" target="_blank" class="link">Youtube</a></li>
+            </div>
+        </div>
+        <div class="two_col_right_col home_page_pic">
+            <div class="image">
+                <img src="profile.jpg" style="height:185px;">
             </div>
         </div>
     </div>
-
-    <script>
-        function myFunction(x) {
-            x.classList.toggle("change");
-        }
-    </script>
-
-    <div class="post_page">
-        <h2 class="post_title">I am the Greatest of All Time</h2>
-        <h4 class="post_subtitle">A collaborative hydration tracker and reminder</h4>
-        <div class=two_column_grid>
-            <div class="two_col_left_col">
-                <img src="Home.jpg" class="small_pic app_screenshot">
-            </div>
-            <div class="two_col_right_col">
-                <img src="Conversation.jpg" class="small_pic app_screenshot">
-            </div>
-        </div>
-        <p class="post_paragraph">
-            This is DripDrip! DripDrip is an app that helps people stay hydrated by creating a gamified social framework
-            where
-            friends can remind each other to drink water, and form teams to build new habits together.
-        </p>
-        <h3>The App</h3>
-        <p class="post_paragraph">
-            There are hundreds of hydration reminder apps on the App Store. Unlike the majority of those apps, DripDrip
-            relies on its user community to send reminders instead timers. In DripDrip, users send random funny
-            reminders to
-            drink water to each other. Those messages are presented to the recipient in the form of push notifications,
-            and chat messages in the app. The app calculates a healthy target water volume that users should drink
-            daily, based on their weight. When users receive a reminder message, they are prompted to drink some water,
-            and log how much water they drank in the app. Users who complete complete their target water goal add to
-            their personal DripDrip score, and contribute to their groups scores as well.
-        </p>
-        <div class="two_column_grid">
-            <div class="two_col_left_col">
-                <img src="LogWater.jpg" class="small_pic app_screenshot">
-            </div>
-            <div class="two_col_right_col">
-                <img src="Group.jpg" class="small_pic app_screenshot">
-            </div>
-        </div>
-        <p class="post_paragraph">
-            Along with keeping a personal score, DripDrip Groups are another great way for users to stay motivated in
-            maintaining their healthy habit. Groups are like those running groups that people join to train for 10k's
-            and half marathons. Friends can form a group, and work together to earn a group score. Group score is the
-            average of its members DripDrip scores. Group members can keep
-            track of which members have and have not completed their goal for the day. Similar to running groups,
-            DripDrip groups help members stay committed, and provide a stronger community that motivates each other.
-        </p>
-        <p class="post_paragraph">
-            <a href="https://apps.apple.com/us/app/dripdrip-social-hydration/id1496441518" target="_blank">Check out the
-                app on the App Store &#8594</a>
-        </p>
-        <div class="two_column_grid">
-            <div class="two_col_left_col">
-                <img src="DarkModeHome.jpg" class="small_pic app_screenshot">
-            </div>
-            <div class="two_col_right_col">
-                <img src="DarkModeConversation.jpg" class="small_pic app_screenshot">
-            </div>
-        </div>
-        <h3>The Tech</h3>
-        <p class="post_paragraph">
-            DripDrip is an MVVM structured app written in Swift. DripDrip uses a Firebase backend, with cloud functions
-            written in Typescript. The original app was ideated and prototyped by David Ho and Justin Rodriguez, and the
-            latest version of the app was written and released by Justin Rodriguez. The app is fully opensource. It is
-            encouraged that young iOS developers utilize DripDrip's source code to make their own creations. As a young
-            iOS developer myself, I learned many useful skills in app development while writing DripDrip. Currently, I
-            am
-            helping a younger computer science student create their own app with DripDrip's sourcecode as a starting
-            point. This process will later be documented as a step by step guide for other young developers to follow.
-        </p>
-        <p class="post_paragraph">
-            <a href="https://github.com/justrodr/DripDripiOS" target="_blank">Check out the source code &#8594</a>
-        </p>
-        <div class="two_column_grid">
-            <div class="two_col_left_col">
-                <img src="DarkModeGroup.jpg" class="small_pic app_screenshot">
-            </div>
-            <div class="two_col_right_col">
-                <img src="DarkModeLogWater.jpg" class="small_pic app_screenshot">
-            </div>
-        </div>
-        <h3>The Business</h3>
-        <p class="post_paragraph">
-            My hope for DripDrip, along with helping people have a laugh and create healthy habits, is for it to be a
-            cash-flow-positive business. DripDrip has over 200 users, and as the user base grows, I believe that some
-            water, and water bottle companies might be interested in advertising to a bunch of motivated water drinkers.
-            Advertisments would not detract from the user experience as they would be presented as one of the random
-            reminder messages that users send to each other. Messages like "Drink _____ water. It's better" and "Bro I
-            think you need a ____ water bottle" along with a purchase link, could help create brand awareness and drive
-            sales.
-        </p>
-        <p class="post_paragraph">
-            I purposely designed my database to be as lean as possible in order to minimize my server and database
-            costs. Currently, my personal Venmo account is in the app, and DripDrip is fully supported by donations.
-            Even small donations help me accomodate hundreds more users on the app.
-        </p>
+    <div class="single_column" id="down_arrow">
+      <a href="#about_p" class="vertical_shift">&#8964</a>
     </div>
+    <div class="single_column" id="about_p">
+      <!-- <h3 class = "centered_title"> &#8595</h3> -->
+      <p id="about">
+          Hi I'm Justin Rodriguez! <br> I like to make apps, help people, and learn.
+          <br>I'm an iOS engineer looking to impact the way humans use computers.
+      </p>
+      <h3 class="forward-button"><a href="portfolio.html">Experience &#8594</a></h3>
+    </div>
+    <div id="Featured_Articles">
+      <div class="two_column_grid">
+        <div class="two_col_left_col">
+          <a href="DripDripArticle.html" class="article_preview_link">
+            <div class="floating_item">
+              <div id="article_preview_image">
+                <img src="thrsty_app_icon.jpg" class="prev_img small_pic">
+              </div>
+              <h3 class="article_preview_title">DripDrip</h3>
+              <h4 class="article_preview_subtitle">A peer-based hydration tracker and reminder app</h4>
+            </div>
+          </a>
+        </div>
+        <div class="two_col_right_col shift_down">
+          <a href="WeekendTrip2.html" class="article_preview_link">
+            <div class="floating_item">
+              <div id="article_preview_image">
+                <img src="Weekend_trip_icon2.jpg" class="prev_img small_pic">
+              </div>
+              <h3 class="article_preview_title">A Travel App For The Busy And Broke</h3>
+              <h4 class="article_preview_subtitle">My quest to make travel possible for busy and broke college students</h4>
+            </div>
+          </a>
+        </div>
+      </div>
 
+
+      <div class="two_column_grid">
+        <div class="two_col_left_col">
+          <a href="verizon_media_interns.html" class="article_preview_link">
+            <div class="floating_item align_right">
+              <div id="article_preview_image">
+                <img src="yahoofantasyicon" class="prev_img small_pic">
+              </div>
+              <h3 class="article_preview_title">Summer 2019 @ Verizon Media, on the Yahoo Fantasy Sports iOS team</h3>
+              <h4 class="article_preview_subtitle">Best Ball: Building and releasing the newest game in the family of Yahoo Fantasy Sports games</h4>
+            </div>
+          </a>
+        </div>
+        <div class="two_col_right_col shift_down">
+          <a href="my_journey.html" class="article_preview_link">
+            <div class="floating_item">
+              <div id="article_preview_image">
+                <img src="LinkedInProf.jpg" class="prev_img small_pic">
+              </div>
+              <h3 class="article_preview_title">My Journey To iOS Engineering</h3>
+              <h4 class="article_preview_subtitle">From Culinary Apprentice to Industrial Design to UX Design to Software</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="two_column_grid">
+        <div class="two_col_left_col">
+          <a href="current.html" class="article_preview_link">
+            <div class="floating_item align_right">
+              <div id="article_preview_image">
+                <img src="face2.jpg" class="prev_img small_pic">
+              </div>
+              <h3 class="article_preview_title">What I'm reading / listing to / thinking about</h3>
+              <h4 class="article_preview_subtitle">Current books, podcasts, and topics</h4>
+            </div>
+          </a>
+        </div>
+        <div class="two_col_right_col shift_down">
+          <a href="marathon.html" class="article_preview_link">
+            <div class="floating_item">
+              <div id="article_preview_image">
+                <img src="MarathonPic.JPG" class="prev_img small_pic">
+              </div>
+              <h3 class="article_preview_title">Running A Marathon At 17</h3>
+              <h4 class="article_preview_subtitle">The most pain I have experienced, and the lessons I learned from it</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="two_column_grid">
+        <div class="two_col_left_col">
+          <a href="hobbies.html" class="article_preview_link">
+            <div class="floating_item">
+              <div id="article_preview_image">
+                <img src="Drums.JPG" class="prev_img small_pic">
+              </div>
+              <h3 class="article_preview_title">Hobbies</h3>
+              <h4 class="article_preview_subtitle">Lessons in discipline and creativity from a lifetime of soccer and drums</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
 </body>
-
 
 </html>
