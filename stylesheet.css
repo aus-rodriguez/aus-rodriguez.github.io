@@ -79,7 +79,7 @@ li a{
     color: black;
     font-family: sans-serif;
     font-weight: lighter;
-    font-size: 14pt;
+    font-size: 16pt;
     padding: 0 20%;
 }
 
@@ -88,7 +88,7 @@ li a{
     display: block;
     width: 0;
     height: 2px;
-    background: #FF2102 ;
+    background: rgb(21, 103, 255) ;
     transition: width .3s;
 }
 
