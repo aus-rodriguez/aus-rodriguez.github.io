@@ -288,3 +288,8 @@ a:visited{
 
 
 }
+b{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
