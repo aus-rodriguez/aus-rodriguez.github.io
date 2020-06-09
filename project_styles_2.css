@@ -222,3 +222,7 @@ li a{
 
 }
 
+.post_paragraph a {
+  font-weight: bold;  
+  display: inline-block;
+  }
